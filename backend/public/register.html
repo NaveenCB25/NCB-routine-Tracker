@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - NCB Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Create Account</h2>
+        <p class="subtitle">Join NCB Tracker and start building habits</p>
+
+        <form id="registerForm">
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="Create a password">
+            </div>
+
+            <div id="messageBox" class="message-box" style="display: none;"></div>
+
+            <button type="submit" class="auth-btn">Register</button>
+        </form>
+
+        <p class="switch-auth">
+            Already have an account? <a href="login.html">Log in here</a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
